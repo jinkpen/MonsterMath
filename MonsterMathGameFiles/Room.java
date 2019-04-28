@@ -93,29 +93,29 @@ public class Room{
 		// Intro room
 		if (rt == 0){
 			startRoomSequence(rt, d, player);
-			//tutorial(rt, player);
+			tutorial(rt, player);
 		}
 		// Rooms 1_1, 1_2, 2_1, 2_2, 3_1, 3_2
 		if (rt == 1 || rt == 2 || rt == 3){
-			/*if (d == 1){
+			if (d == 1){
 				startRoomSequence(rt, d, player); 
 				tutorial(rt, player);
 				fight(rt, d, player);
-				chooseOption(player);
-				fight(rt, d, player);
-				chooseOption(player);
-				fight(rt, d, player);
+				//chooseOption(player);
+				//fight(rt, d, player);
+				//chooseOption(player);
+				//fight(rt, d, player);
 				addFights(rt, d, player);
 				endRoomSequence(rt, d, player); 
-			}*/
+			}
 			if (d == 2){
-				//startRoomSequence(rt, d, player);
-				//chooseOption(player);
-				//fight(rt, d, player);
-				//chooseOption(player);
-				//fight(rt, d, player);
-				//chooseOption(player);
+				startRoomSequence(rt, d, player);
+				chooseOption(player);
 				fight(rt, d, player);
+				//chooseOption(player);
+				//fight(rt, d, player);
+				//chooseOption(player);
+				//fight(rt, d, player);
 				addFights(rt, d, player);
 				endRoomSequence(rt, d, player); 
 			}
