@@ -1,4 +1,4 @@
-# MonsterMathReboot
+# MonsterMath
 # Author: Jess Inkpen
 
 ================================================
