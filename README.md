@@ -22,7 +22,7 @@ the final boss.
 Notes about the code:
 
 Though repetition is important for improving math
-skills, the number of enemy encounters is reduces
+skills, the number of enemy encounters is reduced
 so the game is shorter for demonstration purposes.
 
 I wrote the game before I knew anything about 
